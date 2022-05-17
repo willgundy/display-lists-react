@@ -7,6 +7,8 @@ import { states } from './states-data';
 import StatesList from './StatesList';
 import { countries } from './countries-data';
 import CountriesList from './CountriesList';
+import { continents } from './continents-data';
+import ContinentsList from './ContinentsList';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <CitiesList cities={cities} />
       <StatesList states={states} />
       <CountriesList countries={countries} />
+      <ContinentsList continents={continents} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Cities({ city }) {
   return (
-    <div>
+    <div className='card'>
       <h2>{city.name}</h2>
       <label>
             Population

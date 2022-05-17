@@ -5,9 +5,11 @@ export default function CitiesList({ cities }) {
   return (
     <div>
       <h1>Cities</h1>
-      {cities.map((city, i) => 
-        <Cities key={i} city={city} />
-      )}
+      <div className='flex-row'>
+        {cities.map((city, i) => 
+          <Cities key={i} city={city} />
+        )}
+      </div>
     </div>
   );
 }

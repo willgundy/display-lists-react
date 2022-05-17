@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function State({ state }) {
   return (
-    <div>
+    <div className='card'>
       <h2>{state.name}</h2>
       <label>
           Population

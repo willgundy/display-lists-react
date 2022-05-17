@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Country({ country }) {
   return (
-    <div>
+    <div className='card'>
       <h2>{country.name}</h2>
       <label>
         Continent
